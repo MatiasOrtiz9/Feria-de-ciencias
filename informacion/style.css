@@ -1,0 +1,85 @@
+.body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.contenedor {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.texto-principal {
+    text-align: center;
+    padding: 20px;
+}
+
+.texto-secundario {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.info {
+    font-size: 18px;
+}
+
+.lacobra {
+    text-align: center;
+    padding: 10%;
+}
+
+.table {
+    text-align: center;
+    height: 600px;
+    border-collapse: collapse;
+    width: 35%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.table, th, td {
+    border: 1px solid #0a630a;
+    padding: 8px;
+}
+
+th {
+    background-color: #0a630a;
+    color: #fff;
+}
+#btn {
+    background-color: #0074d9;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    display: block; 
+    margin: 0 auto; 
+}
+#btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+#btn:hover {
+    background-color: #0056a7;
+}
+
+#btn:active {
+    background-color: #003d6b;
+}
+@media (max-width: 600px) {
+    .texto-secundario {
+        max-width: 100%;
+        padding: 10px;
+    }
+}

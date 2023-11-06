@@ -88,7 +88,7 @@ function loadScore() {
     const button = document.createElement("button");
     button.innerText = "Volver";
     button.addEventListener("click", function () {
-        window.location.href = "/informacion";
+        window.location.href = "/";
     });
 
     const buttonContainer = document.createElement("div");

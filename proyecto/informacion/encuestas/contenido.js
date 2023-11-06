@@ -88,7 +88,7 @@ function loadScore() {
     const button = document.createElement("button");
     button.innerText = "Volver";
     button.addEventListener("click", function () {
-        window.location.href = "./proyecto/informacion";
+        window.location.href = "https://main--feria-ciencias.netlify.app/proyecto/informacion";
     });
 
     const buttonContainer = document.createElement("div");

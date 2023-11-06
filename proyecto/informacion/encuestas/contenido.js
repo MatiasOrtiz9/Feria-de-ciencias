@@ -34,10 +34,10 @@ const Questions = [{
 },
 {
 	q: "¿A finales de que año vivio?",
-	a: [{ text: "hace aprox. 78 millones de años", isCorrect: false },
-	{ text: "hace aprox.  92 milones de años", isCorrect: false },
-	{ text: "hace aprox. 85 millones de años", isCorrect: true },
-	{ text: "hace aprox 95 millones de años", isCorrect: false }
+	a: [{ text: "78 millones de años", isCorrect: false },
+	{ text: "92 milones de años", isCorrect: false },
+	{ text: "85 millones de años", isCorrect: true },
+	{ text: "95 millones de años", isCorrect: false }
 	]	
 },
 {
